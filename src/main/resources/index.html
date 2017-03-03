@@ -1,0 +1,15 @@
+<html>
+<head>
+</head>
+<body>
+<h1>The Gilded Rose Inventory Management System</h1>
+<table>
+<th></th><th>Item</th><th>SellIn</th><th>Quality</th>
+{{#each items}}
+<tr>
+<td>{{@index}}</td><td>{{name}}</td><td>{{sellIn}}</td><td>{{quality}}</td>
+<tr>
+{{/each}}
+</table>
+</body>
+</html>
