@@ -60,6 +60,13 @@
 			<artifactId>vertx-web-templ-handlebars</artifactId>
 			<version>3.3.3</version>
 		</dependency>
+		<dependency>
+			<groupId>net.amygdalum</groupId>
+			<artifactId>testrecorder</artifactId>
+			<version>0.2.11</version>
+			<classifier>jar-with-dependencies</classifier>
+			<scope>runtime</scope>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
