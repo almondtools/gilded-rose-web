@@ -1,5 +1,7 @@
 package com.gildedrose;
 
+import net.amygdalum.testrecorder.Snapshot;
+
 class GildedRose {
     Item[] items;
 
@@ -7,6 +9,7 @@ class GildedRose {
         this.items = items;
     }
 
+    @Snapshot
     public void updateQuality() {
         for (int i = 0; i < items.length; i++) {
             if (!items[i].name.equals("Aged Brie")

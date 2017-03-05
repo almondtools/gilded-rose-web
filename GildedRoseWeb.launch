@@ -8,5 +8,6 @@
 </listAttribute>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="io.vertx.core.Launcher"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="run net.amygdalum.gildedroseweb.Server"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-javaagent:${M2_REPO}\net\amygdalum\testrecorder\0.2.5-SNAPSHOT\testrecorder-0.2.5-SNAPSHOT-jar-with-dependencies.jar=net.amygdalum.gildedroseweb.AgentConfig"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="gilded-rose-web"/>
 </launchConfiguration>
