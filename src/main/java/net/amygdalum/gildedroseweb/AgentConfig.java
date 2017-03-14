@@ -13,7 +13,7 @@ public class AgentConfig extends DefaultTestRecorderAgentConfig {
 
 	@Override
 	public SnapshotConsumer getSnapshotConsumer() {
-		return new ScheduledTestGenerator(getInitializer())
+		return new ScheduledTestGenerator()
 			.withDumpMaximum(100)
 			.withDumpOnShutDown(true)
 			.withDumpOnCounterInterval(5)
@@ -31,8 +31,4 @@ public class AgentConfig extends DefaultTestRecorderAgentConfig {
 		return asList("com.gildedrose");
 	}
 	
-	@Override
-	public Class<? extends Runnable> getInitializer() {
-		return null;
-	}
 }
