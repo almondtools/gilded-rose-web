@@ -14,7 +14,7 @@ public class AgentConfig extends DefaultTestRecorderAgentConfig {
 	@Override
 	public SnapshotConsumer getSnapshotConsumer() {
 		return new ScheduledTestGenerator()
-			.withDumpMaximum(100)
+			.withDumpMaximum(1000)
 			.withDumpOnShutDown(true)
 			.withDumpOnCounterInterval(5)
 			.withClassName("${class}${counter}Test")
