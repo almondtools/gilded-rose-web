@@ -11,5 +11,5 @@
 <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="run net.amygdalum.gildedroseweb.Server"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="gilded-rose-web"/>
 <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
-<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-javaagent:${M2_REPO}\net\amygdalum\testrecorder\0.3.6\testrecorder-0.3.6-jar-with-dependencies.jar=net.amygdalum.gildedroseweb.AgentConfig"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-javaagent:${M2_REPO}\net\amygdalum\testrecorder\0.3.9-SNAPSHOT\testrecorder-0.3.9-SNAPSHOT-jar-with-dependencies.jar=net.amygdalum.gildedroseweb.AgentConfig"/>
 </launchConfiguration>
