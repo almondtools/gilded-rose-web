@@ -1,6 +1,6 @@
 package com.gildedrose;
 
-import net.amygdalum.testrecorder.Recorded;
+import net.amygdalum.testrecorder.profile.Recorded;
 
 class GildedRose {
     Item[] items;
