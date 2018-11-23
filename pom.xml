@@ -40,11 +40,11 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>com.github.almondtools</groupId>
-			<artifactId>conmatch</artifactId>
-			<version>0.1.11</version>
-		</dependency>
+        <dependency>
+            <groupId>net.amygdalum</groupId>
+            <artifactId>hamcrest-extensions</artifactId>
+            <version>0.1.18</version>
+        </dependency>
 		<dependency>
 			<groupId>io.vertx</groupId>
 			<artifactId>vertx-core</artifactId>
